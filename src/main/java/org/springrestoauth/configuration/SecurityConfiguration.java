@@ -41,6 +41,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 }
 
 /*
+***Shaon Hossain***
+For personal reference -
 Study more about these anotations
 causing : An authentication object was not found in security context
 
