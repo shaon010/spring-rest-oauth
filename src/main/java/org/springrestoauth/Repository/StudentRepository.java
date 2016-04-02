@@ -12,6 +12,7 @@ import java.util.List;
  * Created by Shaon on 8/15/2015.
  */
 public interface StudentRepository extends JpaRepository<Student, Long> {
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    //need to study more about spring ACL
+    //@PreAuthorize("hasRole('ROLE_ADMIN')")
     Student findByNameEquals(@Param("name")String name);
 }
